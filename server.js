@@ -47,7 +47,7 @@ app.post('/', function(req, res){
    });
    
 });
-app.listen(process.env.PORT || 5500,function(){
+app.listen(process.env.PORT || 5500, function(){
     console.log("Server is running on port 5500");
 });
 
